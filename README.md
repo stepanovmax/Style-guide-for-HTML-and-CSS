@@ -1,6 +1,6 @@
-# Airbnb CSS / Sass Styleguide
+# Stepanov Max HTML / CSS (Less) Styleguide
 
-*A mostly reasonable approach to CSS and Sass*
+*A mostly reasonable approach to HTML and CSS(Less)*
 
 ## Table of Contents
 
@@ -70,6 +70,20 @@ Finally, properties are what give the selected elements of a rule declaration th
 ### Formatting
 
 * Use soft tabs (2 spaces) for indentation
+* Blocks, elements and modificators name write through the dash:
+```css
+.block-name {
+  // ...
+}
+.block-name__element-name {
+  // ...
+}
+.block-name__element-name_modificator-name {
+  // ...
+}
+```
+* Element write through the double underscore ('block-name__element-name')
+* Modificator write through the single underscore ('block-name__element-name_modificator-name')
 * Prefer dashes over camelCasing in class names.
   - Underscores and PascalCasing are okay if you are using BEM (see [OOCSS and BEM](#oocss-and-bem) below).
 * Do not use ID selectors
