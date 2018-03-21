@@ -82,8 +82,18 @@ Finally, properties are what give the selected elements of a rule declaration th
   // ...
 }
 ```
-* Element write through the double underscore ('block-name__element-name')
-* Modificator write through the single underscore ('block-name__element-name_modificator-name')
+* Element write through the double underscore
+```css
+.block-name__element-name {
+  // ...
+}
+```
+* Modificator write through the single underscore
+```css
+.block-name__element-name_modificator-name {
+  // ...
+}
+```
 * Prefer dashes over camelCasing in class names.
   - Underscores and PascalCasing are okay if you are using BEM (see [OOCSS and BEM](#oocss-and-bem) below).
 * Do not use ID selectors
